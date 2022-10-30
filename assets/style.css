@@ -29,7 +29,8 @@
   }
   .hero-banner {
     grid-area: sec2;
-    
+    background-image: url();
+
   }
   
   h1,
