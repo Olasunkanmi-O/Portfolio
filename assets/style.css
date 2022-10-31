@@ -1,8 +1,7 @@
 * {
     box-sizing: border-box;
-}
-  
-  body {
+ }
+ body {
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -15,13 +14,13 @@
         'sec4 sec4'
         'sec5 sec5'
         'sec6 sec6';
-    }
-  header {
+
+}
+header {
     grid-area: sec1;
     display:grid;
     grid-template-columns: 1fr 1fr;
-
-  }
+}
   header nav {
     display:flex;
     justify-content: right;
@@ -32,23 +31,54 @@
   }
   .hero-banner {
     grid-area: sec2;
+    display:flex;
     background-image: url(./images/02-hero-bg.jpg);
-    height:100%;
+    height:60px;
+  }
+  .hero-banner h2 {
+    display:flex;
+    align-items: center;
+    color:azure;
+    
   }
   .page-wrapper {
     grid-area:sec3;
     display:grid;
-    
+       
    }
-  .page-section {
-    display:grid;
-    grid-template-columns: 1fr 1fr;
-    margin-bottom: 20px;
-    height:60px;
-    width: 100%;
-  }
-  
 
+        
+  .page-section {
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    margin-bottom: 20px;
+    width: 100%;
+    height: auto;
+    background-color: azure;
+
+  }
+  .page-section h2 {
+    display:flex;
+    justify-content: flex-end;
+  }
+  .page-section a {
+    padding: 5px;
+  } 
+  
+  .content {
+    background-color: aqua;
+    display: flex;
+    
+  }
+  .content p {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  }
+  .content img {
+    display:inline-flex;
+    height:150px;
+    width:150px;
+    
+  }
   
   h1,
   h2,
@@ -67,3 +97,4 @@
     display:flex;
     justify-content: center;
   }
+  
