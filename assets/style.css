@@ -48,7 +48,7 @@ header {
    }
 
         
-  .page-section {
+  .work, .contact, .about {
     display: grid;
     grid-template-columns: 1fr 4fr;
     margin-bottom: 20px;
@@ -76,8 +76,8 @@ header {
   }
   .content img {
     display:inline-flex;
-    height:150px;
-    width:150px;
+    height:180px;
+    width:180px;
     
   }
   
