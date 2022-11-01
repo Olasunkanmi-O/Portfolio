@@ -57,11 +57,11 @@ header {
     background-color: azure;
 
   }
-  .page-section h2 {
+  .page-wrapper h2 {
     display:flex;
     justify-content: flex-end;
   }
-  .page-section a {
+  .contact a {
     padding: 5px;
   } 
   
